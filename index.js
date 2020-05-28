@@ -5,5 +5,5 @@ var recipes= {
   butter: "1 stick",
 }
 function updateObjectWithKeyAndValue( object, key, value){
-  return object.assign
+  return Object.assign( {}, object {key: value})
 }
